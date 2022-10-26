@@ -1,0 +1,13 @@
+<Grid Margin="0,0,0,0"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+    xmlns:loadin="clr-namespace:LoadingIndicators.WPF;assembly=LoadingIndicators.WPF">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+        <loadin:LoadingIndicator Margin="0,5,0,0" Name="ArcsStyle" SpeedRatio="4" IsActive="False" Style="{DynamicResource LoadingIndicatorArcsStyle}" />
+        <Label Name="RestartLabel" Content="Restarting Services" Margin="0,5,0,0" />
+        <Button Name="btnCancel" Content="Cancel" Margin="0,5,0,0" />
+        <Button Name="btnRestart" Content="Restart" Margin="0,5,0,0" />
+    </StackPanel>
+</Grid>
